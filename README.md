@@ -7,6 +7,8 @@ Anyways, feel free to check the notebook out for some fun ML stuff. The model to
 
 All images were resized to 32x32x3, and the latent vector exists in 256 dimensions. I originally wanted to train it on 80x80x3 images, but due to memory issues and lack of access to a GPU, I settled for this resolution. I'll probably visit this project again in the future, if time and compute resources permit, to train a higher resolution, deeper AutoEncoder. Or even a GAN, who knows 😄
 
+One thing to note about AutoEncoders, is that the outputs they give tend to be a bit blurry. This is mainly attributed to using MSE as a loss function. GANs were invented primarily to address this issue, and the discriminator does a very good job (compared to an autoencoder, atleast) at generating images without too many artifacts.
+
 There were 3 mains steps involved in this project:
 1. Training an AutoEncoder to Reconstruct the images.
 2. Generating images by randomly sampling from the Latent Space.
