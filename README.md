@@ -9,6 +9,8 @@ All images were resized to 32x32x3, and the latent vector exists in 256 dimensio
 
 One thing to note about AutoEncoders, is that the outputs they give tend to be a bit blurry. This is mainly attributed to using MSE as a loss function. GANs were invented primarily to address this issue, and the discriminator does a very good job (compared to an autoencoder, atleast) at generating images without too many artifacts.
 
+The AutoEncoder was trained for only 150 epochs, and had a small latent dimension of 256. Increasing the latent vector size and increasing the number of epochs have been proven to generate better results in other similar projects, and the same probably holds true here.
+
 There were 3 mains steps involved in this project:
 1. Training an AutoEncoder to Reconstruct the images.
 2. Generating images by randomly sampling from the Latent Space.
