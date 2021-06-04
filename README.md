@@ -1,7 +1,7 @@
 # Waifu-Generator
 
 
-So this repo contains a Notebook I made last year, in an attempt to generate Waifus (female anime character) faces using AutoEncoders. Although I created the repo for this project, I never really felt like throwing this project up on GitHub till now 😅
+So this repo contains a Notebook I made last year (Sept 2020), in an attempt to generate Waifus (female anime character) faces using AutoEncoders. Although I created a repo for this project, I never really felt like adding this project to my GitHub profile till now 😅
 
 Anyways, feel free to check the notebook out for some fun ML stuff. The model took a couple of hours to train, and I used Kaggle's kernels for it. Dataset source can be found [here](https://www.kaggle.com/splcher/animefacedataset), and my Kaggle Kernel [here](https://www.kaggle.com/naimish123/waifugenerator-ae)
 
